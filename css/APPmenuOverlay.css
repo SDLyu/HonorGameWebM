@@ -1,0 +1,68 @@
+.menuOverlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url('../img/APP/menuBg.png');
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.menuOverlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.menuOverlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    line-height: 65px;
+}
+
+.menuOverlay-content a.alink:hover {
+    background-image: url('../img/homeGame/title.png');
+    background-repeat: no-repeat;
+    background-position: 95px 18px;
+    background-size: 240px;
+}
+
+.menuOverlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .menuOverlay {
+        overflow-y: auto;
+    }
+
+    .menuOverlay a {
+        font-size: 20px
+    }
+
+    .menuOverlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media (min-width: 630px) {
+    .menuOverlay-content a.alink:hover {
+        background-image: url('../img/homeGame/title.png');
+        background-repeat: no-repeat;
+        background-position: 218px 18px;
+        background-size: 240px;
+    }
+}

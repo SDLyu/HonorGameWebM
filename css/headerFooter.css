@@ -1,0 +1,12 @@
+#mainNav,
+footer {
+    background: #e7891c;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e7891c 20%, #a15d15 51%, #713f10 77%, #47240c 96%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e7891c 20%, #a15d15 51%, #713f10 77%, #47240c 96%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e7891c 20%, #a15d15 51%, #713f10 77%, #47240c 96%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7891c', endColorstr='#47240c', GradientType=0);
+}

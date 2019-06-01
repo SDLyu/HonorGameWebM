@@ -1,0 +1,62 @@
+#news {
+    height: auto;
+}
+
+.newsTop {
+    top: -320px;
+}
+
+.newsRow {
+    margin-left: 60px
+}
+
+.newBottom {
+    top: 20px;
+}
+
+@media (min-width: 1200px) {
+    .gameTurn {
+        position: absolute;
+        top: 40px;
+    }
+
+    .gameTurn .row {
+        margin-top: -50px;
+    }
+
+    .newsbg {
+        margin-top: -62px;
+    }
+
+    #news {
+        height: 805px;
+    }
+
+    .newsImg {
+        width: 70%;
+    }
+
+    .newsTop {
+        top: -275px;
+    }
+
+    .newsRow {
+        margin-left: 105px
+    }
+    
+    .newBottom {
+        top: -20px;
+    }
+
+    #about {
+        height: 900px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .gameLight {
+        margin-top: 156px;
+        margin-left: 40px;
+    }
+}

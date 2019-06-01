@@ -1,0 +1,321 @@
+@media (max-width: 980px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    .navLogo {
+        margin-left: 35px;
+    }
+}
+@media (max-width: 768px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    .navLogo {
+        margin-left: 35px;
+    }
+}
+@media (max-width: 720px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    .navLogo {
+        margin-left: 35px;
+    }
+}
+@media (max-width: 528px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: -171px 1px;
+        background-size: cover;
+        height: 100vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: -171px 1px;
+        background-size: cover;
+        height: 100vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: -171px 1px;
+        background-size: cover;
+        height: 100vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: -171px 1px;
+        background-size: cover;
+        height: 100vh;
+    }
+    .navLogo {
+        margin-left: 35px;
+    }
+}
+@media  (max-width: 414px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 85vh;
+    }
+    .navLogo {
+        margin-left: 35px;
+    }
+
+    .newsTopS {
+        top: -170px;
+        position: absolute;
+         z-index: 4
+    }
+    .newsTopContent {
+        position: absolute;
+        width: 170px;
+        left: 117px;
+        top: 65px;
+        z-index: 5
+    }
+    
+    .newBottomS {
+        top: 120px;
+        position: absolute;
+        z-index: 2
+    }
+    
+    .newsMiddle {
+        top: -25px;
+        position: absolute;
+        z-index: 3
+    }
+    
+    .newsMiddleContent {
+        position: absolute;
+        width: 170px;
+        left: 117px;
+        top: 208px;
+        z-index: 5
+    }
+    
+    .newBottomSContent {
+        position: absolute;
+        width: 170px;
+        left: 117px;
+        top: 350px;
+        z-index: 5
+    }
+    .businessModalBg {
+        width: 100%;
+        height: 808px
+    }
+}
+@media (max-width: 360px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: cover;
+        height: 97vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: cover;
+        height: 97vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: cover;
+        height: 97vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: cover;
+        height: 97vh;
+    }
+    .navLogo {
+        margin-left: 0px;
+    }
+    .newsTopS {
+        top: -163px;
+        position: absolute;
+         z-index: 4
+    }
+    
+    .newsTopContent {
+        position: absolute;
+        width: 170px;
+        left: 109px;
+        top: 60px;
+        z-index: 5
+    }
+    
+    .newBottomS {
+        top: 107px;
+        position: absolute;
+        z-index: 2
+    }
+    
+    .newsMiddle {
+        top: -28px;
+        position: absolute;
+        z-index: 3
+    }
+    
+    .newsMiddleContent {
+        position: absolute;
+        width: 170px;
+        left: 109px;
+        top: 194px;
+        z-index: 5
+    }
+    
+    .newBottomSContent {
+        position: absolute;
+        width: 170px;
+        left: 109px;
+        top: 328px;
+        z-index: 5
+    }
+    .businessModalBg {
+        width: 100%;
+        height: 640px
+    }
+}
+@media (max-width: 320px) {
+    #carousel1 {
+        background-image: url('../img/APP/carousel/carousel1.jpg');
+        background-repeat: no-repeat;
+        background-position: center 13px;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel2 {
+        background-image: url('../img/APP/carousel/carousel2.jpg');
+        background-repeat: no-repeat;
+        background-position: center 13px;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel3 {
+        background-image: url('../img/APP/carousel/carousel3.jpg');
+        background-repeat: no-repeat;
+        background-position: center 13px;
+        background-size: cover;
+        height: 85vh;
+    }
+    #carousel4 {
+        background-image: url('../img/APP/carousel/carousel4.jpg');
+        background-repeat: no-repeat;
+        background-position: center 13px;
+        background-size: cover;
+        height: 85vh;
+    }
+    .navLogo {
+        margin-left: 0px;
+    }
+}

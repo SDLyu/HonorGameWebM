@@ -1,0 +1,84 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid white;
+    background-color: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    font-size: 15px;
+    color: white;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    vertical-align: middle;
+    left: 3px;
+    bottom: 26px;
+    border: 2px solid white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: none;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px none;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateY(26px);
+    -ms-transform: translateY(26px);
+    transform: translateY(26px);
+    content: "繁";
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+    content: "簡";
+}
+
+.slidshow:before {
+    content: "繁";
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.slidshow:after {
+    content: "簡";
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 15px;
+}

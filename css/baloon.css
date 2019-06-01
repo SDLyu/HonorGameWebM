@@ -1,0 +1,34 @@
+.lantern {
+    animation: baloon_1 3s infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-moz-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-ms-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@-o-keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}
+
+@keyframes baloon_1{
+0% { transform:translateY(20px);}
+50% {transform:translateY(50px);}
+100% {transform:translateY(20px);}
+}

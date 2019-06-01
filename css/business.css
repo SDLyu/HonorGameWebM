@@ -1,0 +1,197 @@
+.businessMain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* left */
+.block {
+    transition: 1s;
+}
+
+.block.normal {
+    width: 50%;
+    height: 100%;
+}
+
+.block.normal:hover {
+    width: 65%;
+}
+
+.block.large {
+    width: 80%;
+    height: 100%;
+}
+
+.block.small {
+    width: 20%;
+    height: 100%;
+}
+
+.block.left {
+    transform: skew(-15deg, 0deg) translate(0, 0);
+}
+
+.imgleft {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+    opacity: 1;
+    transform: skew(15deg, 0deg) translate(0, 0);
+    background-image: url("../img/business/bg1.png");
+    left: 0;
+    margin: 0;
+    padding: 0;
+    transition: 1s ease-in-out;
+}
+
+.businessMain .left:hover span.overlay {
+    opacity: 0;
+}
+
+span.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.leftInsideImg {
+    position: absolute;
+    left: 650px;
+    height: 107%;
+    top: -25px;
+    transform: rotate(-14deg);
+}
+
+.tabcontent {
+    position: absolute;
+    height: 100%;
+    left: 768px;
+    display: block;
+    z-index: 3;
+    top: 200px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 200px
+}
+
+.tab a.active {
+    background-image: url("../img/business/E04.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    color: white;
+    width: 100%;
+}
+
+.tab {
+    cursor: pointer;
+    text-align: left;
+}
+
+.tablinks {
+    background-image: url("../img/business/E03.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 255px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+/* left */
+
+/* right */
+.block .img {
+    transition: 1s ease-in-out;
+}
+
+.block.normal .img {
+    right: 50vw;
+}
+
+.block.normal:hover .img {
+    right: 35vw;
+}
+
+.block.large .img {
+    right: 10vw;
+}
+
+.block.small .img {
+    right: 80vw;
+}
+
+.block.right {
+    overflow: hidden;
+    position: relative;
+    transform: skew(-15deg, 0deg);
+    right: -88px;
+}
+
+.block.right .img {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    top: 0;
+    background-image: url("../img/business/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: skew(15deg, 0deg);
+}
+
+.businessMain .right:hover span.overlay1 {
+    opacity: 0;
+}
+
+span.overlay1 {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    right: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.rightInsideImg {
+    position: absolute;
+    height: 107%;
+    right: 620px;
+    top: -26px;
+    transform: rotate(-14deg);
+}
+
+.tabcontentR {
+    position: absolute;
+    height: 100%;
+    left: 75px;
+    display: block;
+    z-index: 3;
+    top: 200px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 200px
+}
+/* right */
